@@ -1,0 +1,37 @@
+resolve: {
+	"url": "file:///Users/osame/Developer/github/privatenumber/bug-node-hooks-cjs-conditions/src/index.cjs",
+	"context": {
+		"conditions": [
+			"node",
+			"import",
+			"node-addons"
+		],
+		"importAttributes": {}
+	}
+}
+load: {
+	"url": "file:///Users/osame/Developer/github/privatenumber/bug-node-hooks-cjs-conditions/src/index.cjs",
+	"context": {
+		"format": "commonjs",
+		"importAttributes": {}
+	}
+}
+resolve: {
+	"url": "file:///Users/osame/Developer/github/privatenumber/bug-node-hooks-cjs-conditions/src/file.cjs",
+	"context": {
+		"conditions": [
+			"node",
+			"import",
+			"node-addons"
+		],
+		"importAttributes": {},
+		"parentURL": "file:///Users/osame/Developer/github/privatenumber/bug-node-hooks-cjs-conditions/src/index.cjs"
+	}
+}
+load: {
+	"url": "file:///Users/osame/Developer/github/privatenumber/bug-node-hooks-cjs-conditions/src/file.cjs",
+	"context": {
+		"format": "commonjs",
+		"importAttributes": {}
+	}
+}

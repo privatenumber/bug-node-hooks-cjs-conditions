@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"start": "node --import ./register.mjs src/index.cjs"
+	}
+}
